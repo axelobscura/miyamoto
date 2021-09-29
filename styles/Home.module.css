@@ -19,7 +19,9 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background: #010101;;
+  background: #010101;
+  position: fixed;
+  bottom: 0;
 }
 
 .footer img {

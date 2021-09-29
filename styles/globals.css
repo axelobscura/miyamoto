@@ -3,6 +3,7 @@ body {
   padding: 0;
   margin: 0;
   font-family: 'Gemunu Libre', sans-serif;
+  background: #042a42 !important;
 }
 
 a {
@@ -21,13 +22,22 @@ a {
   color: #010101;
   cursor: pointer;
   border-bottom: 1px solid #333;
+  color: #0ba0fb;
 }
 
 h1 {
   font-weight: bold;
   font-size: 3rem;
   border-bottom: 1px solid #0ba0fb;
-  padding: 15px 0;
+  padding: 8px 0;
+  color: #0ba0fb;
+}
+
+p {
+  font-size: 1.5rem;
+text-align: justify;
+padding: 10px 20px;
+color: #fff;
 }
 
 * {
