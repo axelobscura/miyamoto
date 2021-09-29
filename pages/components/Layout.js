@@ -17,6 +17,7 @@ export default function Layout({children}) {
         <img src="/logo.jpg" alt="MIYAMOTO - EARTHQUAKE STRUCTURAL ENGINEERS" title="MIYAMOTO - EARTHQUAKE STRUCTURAL ENGINEERS" style={{
           'width':'300px'
         }} />
+        <p>PROPUESTA DE DESARROLLO DE AZUL.MX</p>
       </footer>
     </div>
   )

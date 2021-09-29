@@ -3,7 +3,15 @@ body {
   padding: 0;
   margin: 0;
   font-family: 'Gemunu Libre', sans-serif;
-  background: #042a42 !important;
+  background: #042a42;
+}
+
+body { 
+  background: url(/fondo.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
 a {
@@ -42,4 +50,36 @@ color: #fff;
 
 * {
   box-sizing: border-box;
+}
+
+.tab-content > .tab-pane i.bi {
+  font-size: 2rem;
+  margin-top: -20px;
+}
+
+ul {
+  list-style: decimal !important;
+}
+
+ul li, ul li p {
+  margin: 0;
+  padding: 5px 0;
+}
+
+h3 {
+  color: #fff;
+  padding: 20px 10px;
+  background: #0ba0fb;
+  text-align: center;
+  font-weight: bold;
+}
+
+@media (max-width: 900px) {
+  .grid {
+    width: 100%;
+    flex-direction: column;
+  }
+  .nav-pills .nav-link {
+    font-size: 1rem;
+  }
 }

@@ -20,8 +20,8 @@
   justify-content: center;
   align-items: center;
   background: #010101;
-  position: fixed;
-  bottom: 0;
+  flex-direction: column;
+  margin-top: 50px;
 }
 
 .footer img {
@@ -117,5 +117,8 @@
   .grid {
     width: 100%;
     flex-direction: column;
+  }
+  .nav-pills .nav-link {
+    font-size: 0.8rem;
   }
 }
