@@ -27,6 +27,7 @@ h1 {
   font-weight: bold;
   font-size: 3rem;
   border-bottom: 1px solid #0ba0fb;
+  padding: 15px 0;
 }
 
 * {
