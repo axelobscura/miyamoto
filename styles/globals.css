@@ -2,13 +2,31 @@ html,
 body {
   padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-family: 'Gemunu Libre', sans-serif;
 }
 
 a {
   color: inherit;
   text-decoration: none;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+  background: #0ba0fb;
+}
+
+.nav-pills .nav-link {
+  border-radius: 0;
+  font-weight: bold;
+  font-size: 1.3rem;
+  color: #010101;
+  cursor: pointer;
+  border-bottom: 1px solid #333;
+}
+
+h1 {
+  font-weight: bold;
+  font-size: 3rem;
+  border-bottom: 1px solid #0ba0fb;
 }
 
 * {
