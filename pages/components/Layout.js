@@ -8,7 +8,7 @@ export default function Layout({children}) {
         <meta charset="utf-8" />
         <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <title>MIYAMOTO - EARTHQUAKE STRUCTURAL ENGINEERS</title>
+        <title>MIYAMOTO - EARTHQUAKE STRUCTURAL ENGINEERS - PROPUESTA DESARROLLO DE APLICACIÓN PARA WEB Y MOVILES</title>
         <link rel="icon" type="image/png" href="/favicon.png" />
         <link href="https://fonts.googleapis.com/css2?family=Gemunu+Libre:wght@200;800&display=swap" rel="stylesheet"></link>
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css"></link>
