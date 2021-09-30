@@ -258,8 +258,7 @@ export default function Home() {
                   <h5>LINK: <Link href="https://calcula.com.mx/deacero">DEACERO</Link></h5>
                 </Tab.Pane>
                 <Tab.Pane eventKey="seventh">
-                  <h1><i class="bi bi-person-bounding-box"></i> Equipo</h1>
-                  <h3 className="pt-3"><span class="lnr lnr-plus-circle"></span> Equipo de desarrollo</h3>
+                  <h1><i class="bi bi-person-bounding-box"></i> Equipo de desarrollo</h1>
                   <hr />
                   <ul>
                     <li><p><b>DESIGNER</b>: User Experience (UX), User Interface (UI).</p></li>
